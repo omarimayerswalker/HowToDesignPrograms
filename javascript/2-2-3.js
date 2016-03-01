@@ -1,8 +1,8 @@
 'use strict';
 
-function triangle(length, height) {
-  var length = Number(length);
-  var height = Number(height);
+function triangle(l, h) {
+  var length = Number(l);
+  var height = Number(h);
   var area = (0.5 * length * height);
   return area;
 }
