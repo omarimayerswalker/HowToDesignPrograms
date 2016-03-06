@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 function tax(grossPay) {
   const taxRate = 0.15;
   return grossPay * taxRate;
