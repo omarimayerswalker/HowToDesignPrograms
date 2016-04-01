@@ -6,5 +6,3 @@ function triangle(l, h) {
   var area = (0.5 * length * height);
   return area;
 }
-
-console.log(triangle(5, 5));

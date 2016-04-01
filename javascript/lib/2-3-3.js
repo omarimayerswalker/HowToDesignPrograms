@@ -7,5 +7,3 @@ function totalProfit(attendees) {
 
   return ((ticketPrice * attendees) - performaceCost - (attendeeCost * attendees)).toFixed(2);
 }
-
-console.log(totalProfit(10));

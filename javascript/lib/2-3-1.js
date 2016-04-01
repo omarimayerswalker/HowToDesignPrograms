@@ -11,5 +11,3 @@ function netpay(hours) {
 
   return gross - tax(gross);
 }
-
-console.log(netpay(8));

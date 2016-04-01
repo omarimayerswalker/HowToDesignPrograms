@@ -5,5 +5,3 @@ function dollarToEuro(amount) {
   var euro = dollar * 0.92;
   return Number(euro.toFixed(2));
 }
-
-console.log(dollarToEuro(1));

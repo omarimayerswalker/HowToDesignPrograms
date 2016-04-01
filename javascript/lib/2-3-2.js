@@ -8,5 +8,3 @@ function sumCoins(pennies, nickels, dimes, quarters) {
 
   return ((penny * pennies) + (nickel * nickels) + (dime * dimes) + (quarter * quarters)).toFixed(2);
 }
-
-console.log(sumCoins(1, 1, 1, 1));
